@@ -1,0 +1,42 @@
+# Environment variables (contains API keys!)
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Storage directories (user uploads, generated files, temporary cache)
+storage/uploads/*
+storage/temp/*
+storage/generated/*
+storage/cache/*
+chroma_db/
+
+# Logs
+logs/
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
